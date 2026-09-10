@@ -211,8 +211,7 @@ th {
    ============================================================================= */
 
 h1,
-h2,
-h3 {
+h2 {
   color: var(--nics-headings-h1-h2-h3);
 }
 
@@ -229,6 +228,7 @@ h2 {
 }
 
 h3 {
+  color: #222222;
   font-size: 21px;
   font-weight: 400;
   line-height: 1.143;
@@ -565,11 +565,13 @@ footer {
 footer a.link {
   display: inline-block;
   box-sizing: border-box;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 
 footer a.link:hover {
-  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 2px;
 }
 
 footer a.link:active {
@@ -1007,7 +1009,12 @@ button.accordion-toggle[aria-expanded="true"]:focus {
   color: #ffffff;
   font-size: 14px;
   text-decoration: underline;
+  text-decoration-thickness: 1px;
   text-underline-offset: 3px;
+}
+
+.footer-list a:hover {
+  text-decoration-thickness: 3px;
 }
 
 /* Footer layout */
@@ -1061,6 +1068,12 @@ button.accordion-toggle[aria-expanded="true"]:focus {
   color: #ffffff;
   font-size: 12px;
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.footer-links a:hover {
+  text-decoration-thickness: 3px;
 }
 
 /* Social icons */
@@ -1101,6 +1114,11 @@ button.accordion-toggle[aria-expanded="true"]:focus {
   background-color: #ffffff;
 }
 
+.info.legend svg circle,
+.info.legend svg path {
+  stroke: #454a58 !important;
+  stroke-width: 1px !important;
+}
 
 /* =============================================================================
    Table download dropdown
