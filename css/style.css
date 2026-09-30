@@ -123,60 +123,74 @@
 
 /* =============================================================================
    Departmental themes
-   ============================================================================= */
+   =============================================================================
+   */
+
+/* NOTE: Colour 1 is the background colour of the banner and centre of
+borderline, colour 2 is the top of banner and left of borderline and colour 3 is
+the bottom of the banner and right of borderline */
 
 [data-nics-theme="teo"] {
-  --nics-banner-highlight: #7bafd4;
-  --nics-three-bar-colour-2: var(--nics-banner-highlight);
+  --nics-banner-borderline-colour-1: var(--nics-navy);
+  --nics-banner-borderline-colour-2: #7bafd4;
+  --nics-banner-borderline-colour-3: #deebf7;
 }
 
 [data-nics-theme="daera"] {
-  --nics-banner-highlight: #009a44;
-  --nics-three-bar-colour-2: var(--nics-banner-highlight);
+  --nics-banner-borderline-colour-1: var(--nics-navy);
+  --nics-banner-borderline-colour-2: #009a44;
+  --nics-banner-borderline-colour-3: #009a44;
 }
 
 [data-nics-theme="dfc"] {
-  --nics-banner-highlight: #7d55c7;
-  --nics-three-bar-colour-2: var(--nics-banner-highlight);
+  --nics-banner-borderline-colour-1: var(--nics-navy);
+  --nics-banner-borderline-colour-2: #7d55c7;
+  --nics-banner-borderline-colour-3: #7b549e;
+  
 }
 
 [data-nics-theme="de"] {
-  --nics-banner-highlight: #ca2c93;
-  --nics-three-bar-colour-2: var(--nics-banner-highlight);
+  --nics-banner-borderline-colour-1: var(--nics-navy);
+  --nics-banner-borderline-colour-2: #ca2c93;
+  --nics-banner-borderline-colour-3: #ca2c93;
 }
 
 [data-nics-theme="dfe"] {
-  --nics-banner-highlight: #0072ce;
-  --nics-three-bar-colour-2: var(--nics-banner-highlight);
+  --nics-banner-borderline-colour-1: var(--nics-navy);
+  --nics-banner-borderline-colour-2: #0072ce;
+  --nics-banner-borderline-colour-3: #0072ce;
 }
 
 [data-nics-theme="dof"] {
-  --nics-three-bar-colour-1: var(--nisra-blue);
-  --nics-three-bar-colour-2: var(--nics-navy);
-  --nics-three-bar-colour-3: var(--nics-banner-green);
+  --nics-banner-borderline-colour-1: var(--nics-navy);
+  --nics-banner-borderline-colour-2: var(--nisra-blue);
+  --nics-banner-borderline-colour-3: var(--nics-banner-green);
 }
 
 [data-nics-theme="dfi"] {
-  --nics-banner-highlight: #ffb81c;
-  --nics-three-bar-colour-2: var(--nics-banner-highlight);
+  --nics-banner-borderline-colour-1: var(--nics-navy);
+  --nics-banner-borderline-colour-2: #ffb81c;
+  --nics-banner-borderline-colour-3: #6c748a;
+  
 }
 
 [data-nics-theme="doh"] {
-  --nics-banner-highlight: #008eaa;
-  --nics-three-bar-colour-2: var(--nics-banner-highlight);
+  --nics-banner-borderline-colour-1: var(--nics-navy);
+  --nics-banner-borderline-colour-2: #008eaa;
+  --nics-banner-borderline-colour-3: #008eaa;
 }
 
 [data-nics-theme="doj"] {
-  --nics-banner-highlight: #893b67;
-  --nics-three-bar-colour-2: var(--nics-banner-highlight);
+  --nics-banner-borderline-colour-1: var(--nics-navy);
+  --nics-banner-borderline-colour-2: #893b67;
+  --nics-banner-borderline-colour-3: #893b67;
 }
 
 [data-nics-theme="adr"] {
-  --nics-banner-highlight: #6bbbae;
   --nics-headings-h1-h2-h3: #178573;
-  --nics-three-bar-colour-1: #188c78;
-  --nics-three-bar-colour-2: #0b3142;
-  --nics-three-bar-colour-3: #999999;
+  --nics-banner-borderline-colour-1: var(--nics-navy);
+  --nics-banner-borderline-colour-2: #6bbbae;
+  --nics-banner-borderline-colour-3: #999999;
 }
 
 /* BSO theme placeholder:
